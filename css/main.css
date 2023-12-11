@@ -289,6 +289,7 @@ html, body {
   height: 10px;
   border-radius: 50%;
   background-color: #fff;
+  transition: all 0.2s ease-in;
 }
 
 .info-dot__radius {
@@ -307,7 +308,7 @@ html, body {
 }
 
 .info-dot:hover .info-dot__circle {
-  background-color: orange;
+  background-color: var(--accent);
 }
 
 @keyframes pulse {

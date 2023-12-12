@@ -406,7 +406,32 @@ body {
   opacity: 0.8;
 }
 
-.benefit__link {
+.products {
+  padding: 50px 0;
+  background-color: #F7F7F7;
+}
+
+.products__title {
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.products__tabs {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.products__slider {
+  margin-bottom: 60px;
+}
+
+.products__link {
+  text-align: center;
+}
+
+.read-more {
   display: inline-flex;
   gap: 13px;
   align-items: center;
@@ -415,7 +440,10 @@ body {
   font-size: 14px;
   line-height: 1.85;
 }
-.benefit__link::after {
+.read-more::after {
   content: url("./../img/icons/Arrow-right.svg");
   height: 24px;
+}
+.read-more--large {
+  font-size: 18px;
 }/*# sourceMappingURL=main.css.map */

@@ -110,6 +110,10 @@ html, body {
   color: var(--text-color);
 }
 
+body {
+  padding-bottom: 50vh;
+}
+
 .container {
   max-width: 1310px;
   display: 0 15px;
@@ -371,4 +375,47 @@ html, body {
 }
 .info-hint__radio-fake--gray {
   background-color: var(--ui-gray);
+}
+
+.benefits {
+  padding: 120px 0;
+}
+
+.benefits__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.benefits__title {
+  font-size: 42px;
+  font-weight: 700;
+  max-width: 260px;
+}
+
+.benefit__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.benefit__text {
+  margin-bottom: 14px;
+  font-size: 16px;
+  line-height: 185%;
+  opacity: 0.8;
+}
+
+.benefit__link {
+  display: inline-flex;
+  gap: 13px;
+  align-items: center;
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.85;
+}
+.benefit__link::after {
+  content: url("./../img/icons/Arrow-right.svg");
+  height: 24px;
 }/*# sourceMappingURL=main.css.map */
